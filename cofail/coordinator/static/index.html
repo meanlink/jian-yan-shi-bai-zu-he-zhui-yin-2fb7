@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>联合共败分析 · 协调端</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <h1>联合共败分析 · 协调端</h1>
+  <span class="badge">只可见三室合计，单室计数不可读</span>
+</header>
+<main>
+  <div class="card">
+    <h2>1. 发起调查轮次（创建即冻结成员 / 样本 / 阈值）</h2>
+    <label>调查员口令</label>
+    <input id="admin-token" type="password" placeholder="investigator-demo-token">
+    <label>样本清单 manifest JSON（仅公开属性，不含批号/标签）</label>
+    <textarea id="manifest"></textarea>
+    <label>阈值 JSON</label>
+    <textarea id="thresholds"></textarea>
+    <button onclick="createRound()">冻结并发起轮次</button>
+    <div id="create-msg"></div>
+    <p class="muted">冻结后成员固定为三室、样本与阈值不可改；少任何一家都不会产出结果。</p>
+  </div>
+
+  <div class="card">
+    <h2>2. 轮次进度</h2>
+    <label>轮次 ID（留空则查询全部）</label>
+    <input id="round-id" placeholder="r_xxxxxxxxxxxx">
+    <button class="ghost" onclick="pollStatus()">查询进度</button>
+    <div id="status" class="muted">尚未查询。</div>
+  </div>
+
+  <div class="card">
+    <h2>3. 简报与调查追溯</h2>
+    <button class="ghost" onclick="listBriefings()">列出所有简报</button>
+    <div id="briefings"></div>
+  </div>
+
+  <div class="card" id="briefing-card" style="display:none">
+    <h2>简报详情（可追溯到对应调查）</h2>
+    <div id="briefing-detail"></div>
+  </div>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>

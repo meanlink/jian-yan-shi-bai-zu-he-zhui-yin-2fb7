@@ -1,0 +1,482 @@
+[
+  {
+    "sample_id": "S0001",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0002",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0003",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-3",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0004",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0005",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0006",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0007",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-2",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0008",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0009",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0010",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-3",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0011",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0012",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0013",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0014",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0015",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-3",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0016",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0017",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0018",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0019",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0020",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0021",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0022",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0023",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0024",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0025",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0026",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0027",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0028",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0029",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0030",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0031",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0032",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-1",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0033",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0034",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0035",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0036",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-1",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0037",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0038",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-2",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0039",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-3",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0040",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0041",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-3",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0042",
+    "attrs": {
+      "reagent_lot": "R-9",
+      "instrument": "INSP-3",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0043",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0044",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0045",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-2",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0046",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0047",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-2",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0048",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-3",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0049",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-1",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0050",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0051",
+    "attrs": {
+      "reagent_lot": "R-5",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0052",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0053",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-3",
+      "temperature_band": "T-H"
+    }
+  },
+  {
+    "sample_id": "S0054",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0055",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-2",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0056",
+    "attrs": {
+      "reagent_lot": "R-7",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0057",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  },
+  {
+    "sample_id": "S0058",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-2",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0059",
+    "attrs": {
+      "reagent_lot": "R-3",
+      "instrument": "INSP-3",
+      "temperature_band": "T-M"
+    }
+  },
+  {
+    "sample_id": "S0060",
+    "attrs": {
+      "reagent_lot": "R-1",
+      "instrument": "INSP-1",
+      "temperature_band": "T-L"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "coordinator": {
+    "port": 8100,
+    "url": "http://127.0.0.1:8100",
+    "admin_token": "investigator-demo-token"
+  },
+  "labs": [
+    {"lab_id": "lab-a", "port": 8101, "token": "token-lab-a-secret"},
+    {"lab_id": "lab-b", "port": 8102, "token": "token-lab-b-secret"},
+    {"lab_id": "lab-c", "port": 8103, "token": "token-lab-c-secret"}
+  ],
+  "thresholds": {
+    "min_support": 6,
+    "min_common_rate": 0.35,
+    "min_pooled_rate": 0.4,
+    "rule_attrs": ["reagent_lot", "instrument", "temperature_band"],
+    "max_depth": 1
+  }
+}

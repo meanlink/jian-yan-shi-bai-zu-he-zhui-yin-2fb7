@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>联合共败分析 · 参与端</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <h1>联合共败分析 · 参与端</h1>
+  <span class="badge" id="lab-badge">加载中…</span>
+</header>
+<main>
+  <div class="card">
+    <h2>1. 本机身份</h2>
+    <label>参与端令牌（Bearer Token，仅本机保存）</label>
+    <input id="token" placeholder="token-lab-x-secret">
+    <p class="muted">批号与逐批标签只保存在本室 SQLite，任何对外消息都不含批号/明文标签。</p>
+  </div>
+
+  <div class="card">
+    <h2>2. 导入本室私有数据</h2>
+    <label>轮次 ID</label>
+    <input id="round-id" placeholder="r_xxxxxxxxxxxx">
+    <label>冻结样本清单（协调端创建轮次后给出的 manifest JSON）</label>
+    <textarea id="manifest"></textarea>
+    <div class="row">
+      <div>
+        <label>阈值 JSON（与冻结口径一致）</label>
+        <textarea id="thresholds"></textarea>
+      </div>
+      <div>
+        <label>本室私有数据（labels 与 batch_ids，仅落本室库）</label>
+        <textarea id="private"></textarea>
+      </div>
+    </div>
+    <button onclick="importData()">导入私有数据</button>
+  </div>
+
+  <div class="card">
+    <h2>3. 参与 / 推进 / 退出</h2>
+    <button onclick="joinRound()">加入并推进一步</button>
+    <button class="ghost" onclick="pollProgress()">刷新进度</button>
+    <button class="danger" onclick="exitRound()">退出本整轮（作废）</button>
+    <label style="margin-top:12px">退出原因（可选）</label>
+    <input id="exit-reason" placeholder="如：设备故障">
+    <div id="action-msg"></div>
+  </div>
+
+  <div class="card">
+    <h2>4. 本室进度</h2>
+    <div id="progress" class="muted">尚未查询。</div>
+  </div>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
